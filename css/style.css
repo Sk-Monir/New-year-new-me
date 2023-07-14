@@ -1,0 +1,116 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+/* google font */
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+section{
+    margin: 50px 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.sec_ttl{
+    color:#151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sec_dis{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.right{
+    text-align: right;
+}
+.row{
+    display: flex;
+}
+.btn{
+    color: #fff;
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 15px 30px;
+    border: 1px solid #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all linear .3s;
+}
+.btn:hover{
+    color: #F15B22;
+    background-color: #fff;
+    border: 1px solid #F15B22;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* common css end */
+/* banner section start */
+nav{
+    color:#fff;
+    background-color: #151414;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.navbar h2{
+    font-weight: 700;
+    font-size: 45px;
+}
+.navbar span{
+    color:#F15B22;
+}
+.navbar ul{
+    align-items: center;
+}
+.navbar li{
+    padding: 20px;
+}
+#header{
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.header_ttl{
+    color:#151414;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+/* banner section end */
+/* main section start  */
+.failures_dis{
+    display: flex;
+    align-items: center;
+    gap:50px
+}
+.failures_info{
+    padding-right: 0px;
+}
+.failures_info li{
+    margin-bottom:10px ;
+}
+.failures_info li i{
+    margin-right: 10px;
+    color:aquamarine;
+}
+/* main section end */
