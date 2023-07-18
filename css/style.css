@@ -173,3 +173,32 @@ nav{
     border: 1px solid #fff;
 }
 /* main section end */
+/* footer section start */
+footer{
+    background-color: #151414;
+}
+#footer_dis{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+#footer_dis .sec_ttl{
+    color: #fff;
+}
+#footer_dis .sec_dis{
+    color: #fff;
+}
+.Subscribe_sec input[type=email]{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+    background:#151414 ;
+    border: 1px solid #fff ;
+    border-radius: 10px;
+    padding: 20px;
+}
+.icon img{
+    margin-right: 20px;
+}
+/* footer section End */
